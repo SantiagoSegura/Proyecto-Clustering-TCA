@@ -1,0 +1,67 @@
+Descripción
+Este proyecto fue desarrollado como parte del trabajo final de carrera en el Tecnológico de Monterrey. Su objetivo es aplicar técnicas de clustering para identificar patrones y segmentar datos clave relacionados con las operaciones de TCA, una empresa ficticia utilizada como caso de estudio en este proyecto.
+
+Objetivos
+Realizar un análisis exploratorio de los datos proporcionados por TCA.
+Aplicar técnicas de clustering (como K-Means y DBSCAN) para segmentar los datos en grupos significativos.
+Generar insights útiles para optimizar procesos y toma de decisiones en TCA.
+Requisitos Previos
+Para ejecutar este proyecto, necesitas:
+
+Python 3.12 o superior
+Librerías instaladas:
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly (opcional para visualizaciones interactivas)
+Estructura del Proyecto
+bash
+Copiar código
+├── data/               # Carpeta con los datos utilizados  
+├── notebooks/          # Jupyter Notebooks con análisis y visualizaciones  
+├── src/                # Código fuente del proyecto  
+│   ├── preprocessing.py   # Limpieza y preparación de los datos  
+│   ├── clustering.py      # Implementación de modelos de clustering  
+│   └── visualization.py   # Generación de gráficas y reportes  
+├── results/            # Resultados y gráficas finales  
+├── README.md           # Este archivo  
+└── requirements.txt    # Lista de dependencias  
+Instalación
+Clona este repositorio:
+bash
+Copiar código
+git clone https://github.com/tu_usuario/tca-clustering.git  
+Crea un entorno virtual (opcional pero recomendado):
+bash
+Copiar código
+python -m venv env  
+source env/bin/activate  # En Windows: env\Scripts\activate  
+Instala las dependencias:
+bash
+Copiar código
+pip install -r requirements.txt  
+Uso
+Ejecuta el análisis exploratorio desde los notebooks en la carpeta notebooks.
+Corre los modelos de clustering desde la terminal o tu IDE favorito:
+bash
+Copiar código
+python src/clustering.py  
+Revisa los resultados generados en la carpeta results.
+Resultados Esperados
+Segmentación de los datos en clusters bien definidos.
+Visualizaciones que expliquen las características de cada grupo.
+Recomendaciones prácticas basadas en los hallazgos del clustering.
+Contribuciones
+Este proyecto no está abierto a contribuciones externas, ya que fue desarrollado como un trabajo académico individual.
+
+Créditos
+Autor: Santiago Humberto Segura Mariano
+Institución: Tecnológico de Monterrey
+Programa: Ciencia de Datos y Matemáticas
+
+Licencia
+Este proyecto está protegido bajo una licencia de uso académico.
+
+
